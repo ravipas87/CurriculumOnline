@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<title>-Curriculum Web-</title>
+		<!-- imports-->
+		<script src="assets/js/jquery-2.1.1.min.js"></script>
+		<!-- matrial design --> 
+		<link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/flaticon.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<script src="assets/js/materialize.js"></script>
+		<script src="assets/js/hammer.min.js"></script>
+		<script src="assets/js/slider.js"></script>
+		<script src="assets/js/cards.js"></script>
+		<script src="assets/js/init.js"></script>
+		<!-- pdf libraries-->
+		<script src="jspdf.min.js"></script>
+		<script src="html2canvas.min.js"></script>
+		<script src="html2pdf.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>-->
+		<!-- lang selector-->
+		<link rel="stylesheet" href="assets/js/country-select/build/css/countrySelect.css">
+		<link rel="stylesheet" href="assets/js/country-select/build/css/demo.css">
+		<script src="assets/js/country-select/build/js/countrySelect.js"></script>
+		<!-- main app script -->
+		<script src="remoteDataReader.js"></script>
+	</head>
+	<body>
+
+		<section id="top-bar">
+		<div class="spinner-layer spinner-green">
+			  <div class="circle-clipper left">
+				<div class="circle"></div>
+			  </div>
+			  <div class="gap-patch">
+				<div class="circle"></div>
+			  </div>
+			  <div class="circle-clipper right">
+				<div class="circle"></div>
+			  </div>
+			</div>
+
+		</section>
+		  <div class="container">
+			<div  class="section content">
+
+			  <!--   Icon Section   -->
+			  <div id="printable" class="row">
+				<div class="col s12 m12">
+					<div class="col s12 m4 left-side">
+									<!-- ini country selector-->
+					<div data-html2canvas-ignore="true" class="form-item">
+						<div class="col s6"><input id="country_selector" readonly="readonly"></div>
+						<div class="col s6 center"><button class="print-button">Imprimir</button></div>
+					</div>
+					</br>
+					<div class="form-item" style="display:none;">
+						<input type="text" id="country_selector_code" name="country_selector_code" data-countrycodeinput="1" readonly="readonly"/>
+					</div>
+					<!-- fin country selector-->
+						<img src="assets/images/user.jpg" alt="" class="circle user-img responsive-img">
+					  <div class="block"> 
+						<h5 id="name" class="center indigo-text">dummy data if you see this something has failed</h5>
+
+						<p id="position" class="light center">dummy data</p>
+					  </div>
+					  <hr>
+					  <div id="about_me" class="block">
+						<!-- js will render here about_me data-->
+					  </div>
+					  <div class="block center">
+						<h5 class="left-align"><i class="mdi-action-perm-phone-msg"></i>
+							<span id="contactInfo_tag">Contact</span>
+						</h5>
+							<p><i class="mdi-maps-pin-drop indigo-text"></i><span id="city">dummy data</span><br/>
+							<span id="phone"> </span> <!--js will render telephone number if it exists -->
+							<i class="mdi-communication-email indigo-text"></i> <a id="email" href="mailto:email" class="indigo-text" target="_blank">dummy data</a><br/>
+							<span id="webs">
+								
+							</span>
+							</p>
+					  </div>
+						<div id="aptitudes" class="block">
+						<!-- js will render aptitudes here-->
+						</div>  
+						  <!-- inicio idiomas-->
+						  <div id="languajes" class="block">
+							<!-- js will render languajes here-->	
+						<!--fin idiomas-->
+					  </div>
+						<div id="social" class="block social">
+						<!-- js will render social networks here-->	
+				
+				</div>
+				</div>
+
+					<div class="col s12 m8 right-side">
+				  <span id="laboral_block">
+				  
+				  <!--js will render here the diferent laboral info records -->  
+				  </span> <!-- end of laboral block-->
+				  <span id="academic_block">
+					<!--js will render here the diferent academic info records -->  
+				  </span> <!-- en of academic block-->
+				  
+				  <span id="courses_block">
+				  <!--js will render here the diferent couses info records -->  
+				  </span> <!-- en of courses block-->
+			</div>
+
+		</div>
+	</body>
+</html>

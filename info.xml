@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lang>
+<es>
+<data>
+<personal>
+  <name>Usuario Nombre DUMMY</name>
+  <city>Ciudad</city>
+  <email>email@adress.com</email>
+  <phone></phone>
+  <web_list>
+	<web>
+		<title>Perfil GitHub</title>
+		<adress>https://www.github.io</adress>
+	</web>
+	<web>
+		<title>Blog</title>
+		<adress>_blank</adress>
+	</web>
+  </web_list>
+  <position>Ingeniero Software</position>
+  <about_me>Per aspera ad astra!</about_me>
+    <social_profiles>
+		<linkedin>https://www.linkedin.com</linkedin>
+		<facebook>https://www.facebook.com</facebook>
+		<twitter>https://www.twitter.com</twitter>
+		<pinterest>https://www.pinterest.com</pinterest>
+		<instagram>https://www.instgram.com</instagram>
+		<google>https://www.google.com</google>
+  </social_profiles>
+  </personal>
+  <languajes>
+	<languaje>Lengua 1</languaje>
+	<languaje>Lengua 2</languaje>
+  </languajes>
+ <academic>
+	<record>
+		<title>Titulo 1</title>
+		<location>Universidad 1</location>
+		<period>Agosto 2012 - Septiembre 2016</period>
+		<description>Descripción basica del titulo y conocimientos adquiridos.</description>
+	</record>
+	<record>
+		<title>Titulo 2</title>
+		<location>Universidad 2</location>
+		<period>27 Aug 2007</period>
+		<description>Descripción basica del titulo y conocimientos adquiridos.</description>
+	</record>
+ </academic> 
+ <courses>
+	<record>
+		<title>Curso 1</title>
+		<location>Ubicación 1</location>
+		<period>Julio 2015</period>
+		<description>Breve resumen del curso. </description>
+	</record>
+		<record>
+		<title>Curso 2</title>
+		<location>Ubicación 2</location>
+		<period>Julio 2016</period>
+		<description>Breve resumen del curso.</description>
+	</record>
+	<record>
+		<title>Curso 3</title>
+		<location>Ubicación 3</location>
+		<period>Julio 2017</period>
+		<description>Breve resumen del curso.</description>
+	</record>
+
+ </courses>
+ <laboral>
+	<record>
+		<title>Cargo 1</title>
+		<company>Empresa 1</company>
+		<period>Noviembre 2015 - </period>
+		<description>Breve descripcion del cargo y tareas desarrolladas.</description>
+	</record>
+	<record>
+		<title>Cargo 2</title>
+		<company>Empresa 2</company>
+		<period>Septiembre 2014 - Noviembre 2015</period>
+		<description>Breve descripcion del cargo y tareas desarrolladas.</description>
+	</record>
+	<record>
+		<title>Cargo 3</title>
+		<company>Empresa 3</company>
+		<period>Marzo 2009 - Septiembre 2014</period>
+		<description>Breve descripcion del cargo y tareas desarrolladas.</description>
+	</record>
+ </laboral>
+ <aptitudes_list>
+	<aptitud>
+		<name>JavaScript</name>
+		<score>80</score>
+	</aptitud>
+	<aptitud>
+		<name>JQuery</name>
+		<score>20</score>
+	</aptitud>
+	<aptitud>
+		<name>CSS</name>
+		<score>70</score>
+	</aptitud>
+ </aptitudes_list>
+</data>
+</es>
+<gb>
+<data>
+<personal>
+  <name>User DUMMY Name</name>
+  <city>City</city>
+  <email>email@adress.com</email>
+  <phone></phone>
+  <web_list>
+	<web>
+		<title>GitHubProfile</title>
+		<adress>https://www.github.io</adress>
+	</web>
+	<web>
+		<title>Blog</title>
+		<adress>_blank</adress>
+	</web>
+  </web_list>
+  <position>Ing. Software</position>
+  <about_me>Per aspera ad astra</about_me>
+    <social_profiles>
+		<linkedin>https://www.linkedin.com</linkedin>
+		<facebook>https://www.facebook.com</facebook>
+		<twitter>https://www.twitter.com</twitter>
+		<pinterest>https://www.pinterest.com</pinterest>
+		<instagram>https://www.instgram.com</instagram>
+		<google>https://www.google.com</google>
+  </social_profiles>
+  </personal>
+  <languajes>
+	<languaje>Languaje 1</languaje>
+	<languaje>Languaje 2</languaje>
+  </languajes>
+ <academic>
+	<record>
+		<title>Degree 1</title>
+		<location>University 1</location>
+		<period>August 2012 - Septembe 2016</period>
+		<description>Degree description, subjects, etc.</description>
+	</record>
+	<record>
+		<title>Degree 2</title>
+		<location>University 2</location>
+		<period>27 Aug 2007</period>
+		<description>Degree description, subjects, etc.</description>
+	</record>
+ </academic> 
+ <courses>
+	<record>
+		<title>Course 1</title>
+		<location>Location 1</location>
+		<period>July 2015</period>
+		<description>Brief course description. </description>
+	</record>
+		<record>
+		<title>Course 2</title>
+		<location>Location 2</location>
+		<period>July 2016</period>
+		<description>Brief course description.</description>
+	</record>
+	<record>
+		<title>Course 3</title>
+		<location>Location 3</location>
+		<period>July 2017</period>
+		<description>Brief course description.</description>
+	</record>
+
+ </courses>
+ <laboral>
+	<record>
+		<title>Job position 1</title>
+		<company>Company 1</company>
+		<period>November 2015 - </period>
+		<description>Brief description of job position.</description>
+	</record>
+	<record>
+		<title>Job position 2</title>
+		<company>Company 2</company>
+		<period>September 2014 - November 2015</period>
+		<description>Brief description of job position.</description>
+	</record>
+	<record>
+		<title>Job position 3</title>
+		<company>Company 3</company>
+		<period>March 2009 - September 2014</period>
+		<description>Brief description of job position.</description>
+	</record>
+ </laboral>
+ <aptitudes_list>
+	<aptitud>
+		<name>JavaScript</name>
+		<score>80</score>
+	</aptitud>
+	<aptitud>
+		<name>JQuery</name>
+		<score>20</score>
+	</aptitud>
+	<aptitud>
+		<name>CSS</name>
+		<score>70</score>
+	</aptitud>
+ </aptitudes_list>
+</data>
+</gb>
+</lang>
